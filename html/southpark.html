@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+</head>
+
+<body>
+    <div class="header2">
+        <header>
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Logo">
+            </a>
+        </header>
+    </div>
+    <div class="channels">
+        <div class="site">
+            <div class="channels-name">
+                <div class="southpark2">
+    <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="1200"
+        height="800"
+        data-setup="{}"
+    >
+        <source src="https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/62545c0b002f4b0007688b61livestitch/2977920/playlist.m3u8?terminate=false&sid=c24b17d6-8040-11ef-8979-a270ce774df8&deviceDNT=0&deviceLat=-23.530000686645508&deviceLon=-46.34000015258789&deviceModel=web&deviceVersion=129.0.0&includeExtendedEvents=true&appName=web&DRMCapabilities=widevine&deviceId=36d9c1b1-5889-4a20-bf60-2cfd9f78a1e1&appVersion=9.4.0-9ca51ca10c3047fbafa7297708f146243146d125&deviceType=web&deviceMake=chrome&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjRkZGY4NjNjLTZmMWQtNGVkNy04MTllLTQ1ZWYxMzg5Y2NmMCIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJjMjRiMTdkNi04MDQwLTExZWYtODk3OS1hMjcwY2U3NzRkZjgiLCJjbGllbnRJUCI6IjI4MDQ6NDMxOjgxNjI6OTkwMTo4OWRkOjI0OTc6MjI1ODozNzhjIiwiY2l0eSI6IlBvYSIsInBvc3RhbENvZGUiOiIwODU2MC0yNjAiLCJjb3VudHJ5IjoiQlIiLCJkbWEiOjc2MDc2LCJhY3RpdmVSZWdpb24iOiJCUiIsImRldmljZUxhdCI6LTIzLjUzMDAwMDY4NjY0NTUwOCwiZGV2aWNlTG9uIjotNDYuMzQwMDAwMTUyNTg3ODksInByZWZlcnJlZExhbmd1YWdlIjoicHQiLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjEyOS4wLjAiLCJkZXZpY2VNYWtlIjoiY2hyb21lIiwiZGV2aWNlTW9kZWwiOiJ3ZWIiLCJhcHBOYW1lIjoid2ViIiwiYXBwVmVyc2lvbiI6IjkuNC4wLTljYTUxY2ExMGMzMDQ3ZmJhZmE3Mjk3NzA4ZjE0NjI0MzE0NmQxMjUiLCJjbGllbnRJRCI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImNtQXVkaWVuY2VJRCI6IiIsImlzQ2xpZW50RE5UIjpmYWxzZSwidXNlcklEIjoiIiwibG9nTGV2ZWwiOiJERUZBVUxUIiwidGltZVpvbmUiOiJBbWVyaWNhL1Nhb19QYXVsbyIsInNlcnZlclNpZGVBZHMiOmZhbHNlLCJlMmVCZWFjb25zIjpmYWxzZSwiZmVhdHVyZXMiOnsibXVsdGlQb2RBZHMiOnsiZW5hYmxlZCI6dHJ1ZX19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImZ3VmNJRDJDb3BwYSI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiMzZkOWMxYjEtNTg4OS00YTIwLWJmNjAtMmNmZDlmNzhhMWUxIiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAwMCwxMDAwOSwxMDAwMyJ9fSwiZHJtIjp7Im5hbWUiOiJ3aWRldmluZSIsImxldmVsIjoiTDMifSwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOkJSOk16WmtPV014WWpFdE5UZzRPUzAwWVRJd0xXSm1OakF0TW1ObVpEbG1OemhoTVdVeCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Mjc5MDY1MDksImlhdCI6MTcyNzgyMDEwOSwianRpIjoiNThmOWEyNTEtNzJkYS00M2Y2LWFjMGItYzc3YjQ1MWNjZWM3In0.0HkvJ4qbe4OCPC9et8SdNsnHdXFYF-ifEUIt7Cba3qE&paln=AQzzBGQEnSsS8ffTx5RKospQvpg-Cjikn8jovlhaOjeRj-U5rQxQbf1zS3MHgN1PdcmmSB0KC5qU59ND_oui3XI6d6FTDt0I5QQLV_VGKZbZ_XC3sKvwxRvzXpowg0AxN0Ypb-08BBdIySqT9yUXddZcm-8YdVl72d0vD1UvP7SUg1yDqNvzOjqbKZ9qNip07HJ7AxyflcMgvunLH6ULH4JPY1QI59lD-MqL2wSKaKRQWBSWQUp_B-gH9iFY3b7vXvHzh7onTeb2BD5k5fgJ8wg93U8Z6MZt_wDNaBUq3e_34iFhOEw_GDMdkkvj6Op8oXTsETt26k0pBjGJCETEKYymIH88IQvi_nArw97GKhqeyYnFqGOhisFflSZ64VvmdJNdAdMsP9va5aL2pznAbcW9JwbhB1hiA-jnXVk1Z8WOWWpFTMp8hq8VuGwZ1lX8Pt2cj_LnXG8Jdp4eKATmPrlnyPvCA1uGdn1wUCCTqBny6kMrW_wTLv0OrO7GJoTmjbw_h35r62KIlLFEQkl0EmMkUCCLO92FbWKT8pWE_hGLzkwY2NXFAK-1gBFEh7S7eh8eHYpg_eKe-DbOmBEd0Sxdhe-Rzf4jRVUpgrySlGFLaTWo0AmRFmuxdnPFFnwJXjlDaeZ3tOKjvGrkNm0NvJvfqqT6oWmcpwvcECxUX-sGTgAerYqfiKiYyDmg_zulrGRG-JMByORvPMVe9TKIyLTVjQZW59wbPMKxhjfOBf7ZUHjLU7__KN3gtKHqrHuznng_HwTkwZwFgpO_4BPSJTDajSy2JaFdz2y5m_nLr10RJtJib2hCjWMOoV0zruVCSmqQTxgTBP2-a6OLN0epPqVf_xfi4pFalVe9itNZgWS7L0SkcJktNdqu6lcQd0XTkub7M3ZgLqAdS__sc4q58NPa3WrFw00a8xU7usVvzjbANGUZEk9nE8hI-NjHcbRxAGbMut-BQrchV-68LQPmZ_zyGqoDSOPRVQgqdrwZbiXhTbI353-5hk89CPMXYoyT-kS0Q-qA9ReU-bxH70sANQ6Bbq9yfAgP1CUDKDElvlO8TtCstNZRcjN0AshSBoGWT58QdSSUkkISZHkjauVMgaBYLA3LDyZRytab3N5FbvhdasXl02vjqu3EgS3gOq8cjqBogkmymjHjhCH-7yIAKlao_FCIwBoMCvtecilF78EjQcBnwlA.&CMCD=mtp%3D3000%2Cot%3Dm%2Csf%3Dh%2Csid%3D%228ead5345-ec61-489c-bb89-d2ff14f534ef%22%2Csu"
+            type="application/x-mpegURL"
+        />
+
+    </div>
+    <div class="home">
+    <a href="../index.html"><p><i class="fa-solid fa-home homeBtn"></i> Volte para a página inicial</p></a>
+    </div>
+            </div>
+        </div>
+</body>
+
+</html>

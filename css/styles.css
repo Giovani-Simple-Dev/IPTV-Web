@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Anton', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 1080px;
+}
+
+/* Header */
+.header header{
+    margin-top: -500px;
+    width: 1920px;
+    background: #000000;
+}
+
+.header header > a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.header header a > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 930px;
+    margin-top: 5px;
+    background: #ffffff;
+    color: #ffffff;
+}
+/* Fim Header */
+
+/* Inicio "Channels Name" */
+
+.channels-name .globo {
+    margin-left: 50px;
+    margin-top: -280px;
+    background-color: #000000;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.channels-name .globo > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.channels-name .globo a > img{
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.channels-name .spongebob {
+    margin-left: 580px;
+    margin-top: -282px;
+    background-color: #000000;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    border: 1px solid;
+}
+
+.channels-name .spongebob > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.channels-name .spongebob a > img {
+    margin-top: 40px;
+    width: 220px;
+    height: 120px;
+}
+
+/* Fim "Channels Name" */
+
+/* Página Globo */
+
+.video-js {
+    border: 2px solid #ccc; /* Bordas ao redor do player */
+    border-radius: 8px; /* Arredondar os cantos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar conteúdo */
+    justify-content: center; /* Centralizar conteúdo verticalmente */
+    height: 100vh; /* Altura total da janela */
+    margin: 0; /* Remover margem padrão */
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-family: Arial, sans-serif; /* Fonte do título */
+}
+
+
+/* Página Pluto TV */
+
+.header2 header{
+    margin-top: -400px;
+    width: 1920px;
+    background: #000000;
+}
+
+.header2 header > a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.header2 header a > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 930px;
+    margin-top: 5px;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+
+.channels-name .southpark {
+    margin-top: -80px;
+    background-color: #000000;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.channels-name .southpark > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.channels-name .southpark a > img{
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.channels-name .spongebob {
+    margin-left: 680px;
+    margin-top: -280px;
+    background-color: #000000;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.channels-name .spongebob > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.channels-name .spongebob a > img{
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+}
+
+/* Fim Página Pluto TV */
+
+.southpark2 > a {
+    margin-top: 180px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.home > a{
+    
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+/* Página Stream 3 */
+
+.channel2{
+    margin-left: -360px;
+    border-radius: 50px; 
+    width: 1920px;
+    height: 800px;
+    background: #000000;
+}
+
+
+header .site > a{
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+/* --------------------------------- */
+
+/* Página Stream 4 */
+
+.channel3{
+    margin-left: -360px;
+    border-radius: 50px;
+    width: 1920px;
+    height: 800px;
+    background: #000000;
+}
+
+header .site > a{
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+/* Fim Página Stream 4 */

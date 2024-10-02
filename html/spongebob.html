@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="site">
+            <div class="channel3">
+                <video
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                width="1920"
+                height="800"
+                data-setup="{}"
+                >
+                <source src="https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/62545c0b002f4b0007688b61/master.m3u8?advertisingId=&appName=web&appVersion=9.4.0-9ca51ca10c3047fbafa7297708f146243146d125&app_name=web&clientDeviceType=0&clientID=36d9c1b1-5889-4a20-bf60-2cfd9f78a1e1&clientModelNumber=1.0.0&country=BR&deviceDNT=false&deviceId=36d9c1b1-5889-4a20-bf60-2cfd9f78a1e1&deviceLat=-23.5300&deviceLon=-46.3400&deviceMake=chrome&deviceModel=web&deviceType=web&deviceVersion=129.0.0&marketingRegion=BR&serverSideAds=false&sessionID=ba7dfb81-8058-11ef-a663-0a0e729f998e&sid=ba7dfb81-8058-11ef-a663-0a0e729f998e&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjRkZGY4NjNjLTZmMWQtNGVkNy04MTllLTQ1ZWYxMzg5Y2NmMCIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJiYTdkZmI4MS04MDU4LTExZWYtYTY2My0wYTBlNzI5Zjk5OGUiLCJjbGllbnRJUCI6IjI4MDQ6NDMxOjgxNjI6OTkwMTo4OWRkOjI0OTc6MjI1ODozNzhjIiwiY2l0eSI6IlBvYSIsInBvc3RhbENvZGUiOiIwODU2MC0yNjAiLCJjb3VudHJ5IjoiQlIiLCJkbWEiOjc2MDc2LCJhY3RpdmVSZWdpb24iOiJCUiIsImRldmljZUxhdCI6LTIzLjUzMDAwMDY4NjY0NTUwOCwiZGV2aWNlTG9uIjotNDYuMzQwMDAwMTUyNTg3ODksInByZWZlcnJlZExhbmd1YWdlIjoicHQiLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjEyOS4wLjAiLCJkZXZpY2VNYWtlIjoiY2hyb21lIiwiZGV2aWNlTW9kZWwiOiJ3ZWIiLCJhcHBOYW1lIjoid2ViIiwiYXBwVmVyc2lvbiI6IjkuNC4wLTljYTUxY2ExMGMzMDQ3ZmJhZmE3Mjk3NzA4ZjE0NjI0MzE0NmQxMjUiLCJjbGllbnRJRCI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImNtQXVkaWVuY2VJRCI6IiIsImlzQ2xpZW50RE5UIjpmYWxzZSwidXNlcklEIjoiIiwibG9nTGV2ZWwiOiJERUZBVUxUIiwidGltZVpvbmUiOiJBbWVyaWNhL1Nhb19QYXVsbyIsInNlcnZlclNpZGVBZHMiOmZhbHNlLCJlMmVCZWFjb25zIjpmYWxzZSwiZmVhdHVyZXMiOnsibXVsdGlQb2RBZHMiOnsiZW5hYmxlZCI6dHJ1ZX19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImZ3VmNJRDJDb3BwYSI6IjM2ZDljMWIxLTU4ODktNGEyMC1iZjYwLTJjZmQ5Zjc4YTFlMSIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiMzZkOWMxYjEtNTg4OS00YTIwLWJmNjAtMmNmZDlmNzhhMWUxIiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAwMCwxMDAwOSwxMDAwMyJ9fSwiZHJtIjp7Im5hbWUiOiJ3aWRldmluZSIsImxldmVsIjoiTDMifSwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOkJSOk16WmtPV014WWpFdE5UZzRPUzAwWVRJd0xXSm1OakF0TW1ObVpEbG1OemhoTVdVeCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Mjc5MTY4MDQsImlhdCI6MTcyNzgzMDQwNCwianRpIjoiYmIzM2YzODUtNWVhNS00NjIwLThkZjAtMmI5MWE0NGNiN2NmIn0.-9w9TwtkvXrBDLhCSRPXWEQtjki0f0Vmu5dQbK1D1TU&masterJWTPassthrough=true&includeExtendedEvents=true&paln=AQzzBGQEGmHj6XRVcjIyyZkQBErFz7shmlz3TOKQ1aRfqdruUuNkV7Ar7vgyfgxv_tRYDOvJWa1jO2MrEWj7MbIFhwNjXzBXdU2zUCPkRO6a-mIZdKtjNzM0mYNYJnGFTZ6GabshulctgiSxKboAENuBf2G-FWeA5VU-lUj16L6Hm75FQ5_ZXOz6A4QjC6UHVqWqExyttrtFZFgCdXS1GpPxffyUJUvztifESmFypaH4edid-v54yaAQ175NoclXlT53a3ehbws7TAix3iQDET_4vPBU-SohfTWUDt4PE-KCAAjGv-31XVhUg3J6xFVafb5H7Tal-eEyp-pGSBB1gYxGSXIm-PkTxTVSpSaO0vOFnEq33ZoH4z5hv66ZPgw2KBZ8FUPNsdSlwrjhkLeraIk9ti6C9D72y3QfbC1SD5lRNJ9dWSUvTnFBIQHNSeo9PxeyQ4WIFyBvBdt1n1INJQxu-uY1JL192zJJNgBnnHzs28EkAmm9M7j6TZQGL2gQ8KNxHFC_Je0aV0KcO7ivUpcaZaqxgBfPys1Il99w0-ens5R3s6s0JsLQ-ozjjSxOztszwWLSRXQSt3ieE9XlVeXxgJHeE0oIVzvNhPyDiRnuiRIjPchAue-_TMlXnuH6zjC-VY3tN2r1y3l4Z_njHxmJXDnUaUWNcVnFIe-7wlPugSsvRARtjVaEo9UYVMV-5zFZDYh9Nia28ll1ZAzF99wXhyVuhi8sSoJzYUR0Eg5luIVx_7ki_ZvLGGB6BV9oWWLUKiwiokjvOKxw4lcH3TQXbQaBKgIZvmNg98qObksLkK-BaiYWd3SnHxuyHwBK4_x5KyWN1Y115aiadK2OlAqDNLdFTjMjzcLToe5QOiitEFAa1RnSgjgPtMwz_PxsxJ75e8ZQn8Mv4LgapdpZ0_XifR5FGZSbDGpW8ozIbIrPa4Y9nzbrauiSZcuazBJHeLkmzSMx7_3r9ruIODiTBfBY1vUcMlCjHMniyLNSrmfsk0IxfFINHvk5Sio0RQ0Zm6J4JZRZSWoMBCNd41TVXt0O0YKhYiRkpw38ewpNbW-I8nXjhWEnwcmTHsUkX-SkWZMnu8ORdDSRQVGvRCiifxOIZHIKAOJzAakIxeMiH6ob_sOpNtsMTCZB6cp4iOz91MEuHm2yw3XGI-7ztm8awZeXV_lYNw40rf_9gr92hrZiu9rO3NThfkFhRKIYqRs.&eventVOD=false&CMCD=mtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%222e9e82eb-de40-4199-b857-2708528ad570%22%2Csu"
+                    type="application/x-mpegURL"
+                />
+            </div>
+            <a href="../index.html"><p><i class="fa-solid fa-home"></i> Voltar para a página inicial</p></a>
+        </div>
+    </header>
+</body>
+</html>
