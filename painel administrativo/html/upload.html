@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Upload - IPTV</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h2>Upload de Arquivos para o IPTV</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="upload-area">
+                <label for="fileUpload" class="custom-file-upload">
+                    Clique para escolher um arquivo ou arraste aqui
+                </label>
+                <input type="file" id="fileUpload" name="fileUpload" multiple>
+                <p id="fileName">Nenhum arquivo selecionado.</p>
+            </div>
+            <button type="submit" class="upload-btn">Enviar Arquivos</button>
+        </form>
+        <div id="uploadStatus"></div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
